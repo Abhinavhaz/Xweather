@@ -46,7 +46,8 @@ return(
 
 
 
-{loading && <p>Loading data…</p>}
+
+{loading && <p>Loading data...</p>}
       {weatherData && (
         <div className="weather-cards">
           <div className="weather-card">
